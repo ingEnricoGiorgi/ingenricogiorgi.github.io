@@ -3,44 +3,244 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Venginoads</title>
+
+  <title>Venginoads | Apps & Games</title>
+  <meta name="description" content="Venginoads - Independent developer of apps and games.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: #0d1211;
+      color: #f3f7f5;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: auto;
+    }
+
+    /* HEADER */
+
+    header {
+      padding: 70px 0 50px;
+      border-bottom: 1px solid #24302d;
+    }
+
+    .brand {
+      color: #63e6be;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 72px);
+      line-height: 1.05;
+      letter-spacing: -2px;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      color: #aab8b4;
+      font-size: 19px;
+      max-width: 600px;
+    }
+
+    /* CONTENT */
+
+    main {
+      padding: 55px 0 80px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #82928d;
+      margin: 45px 0 18px;
+    }
+
+    .section-title:first-child {
+      margin-top: 0;
+    }
+
+    .card {
+      background: #151d1b;
+      border: 1px solid #26332f;
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 20px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: #4c7569;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 12px;
+    }
+
+    .card h2 {
+      font-size: 27px;
+    }
+
+    .badge {
+      background: #173c32;
+      color: #63e6be;
+      padding: 5px 11px;
+      border-radius: 100px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    .card p {
+      color: #aab8b4;
+      max-width: 700px;
+      margin-bottom: 22px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      color: #08110e;
+      background: #63e6be;
+      padding: 10px 17px;
+      border-radius: 10px;
+      font-weight: 700;
+      transition: opacity 0.2s ease;
+    }
+
+    .button:hover {
+      opacity: 0.85;
+    }
+
+    .button.secondary {
+      color: #d9e3e0;
+      background: #222d2a;
+      border: 1px solid #34423e;
+    }
+
+    /* FOOTER */
+
+    footer {
+      border-top: 1px solid #24302d;
+      padding: 28px 0;
+      color: #778681;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 50px 0 35px;
+      }
+
+      .card {
+        padding: 23px;
+      }
+
+      .card-header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-  <h1>Venginoads</h1>
-  <p>Independent game developer.</p>
-  
-  <h2>Games</h2>
+<header>
+  <div class="container">
+    <div class="brand">Independent Developer</div>
 
-  <h3>Mountain Goat Jumper</h3>
-  <p>
-    Climb higher, overcome obstacles and reach the summit!
-  </p>
+    <h1>Venginoads</h1>
 
-  <p>
-    <a href="/privacy/mountain-goat-jumper/">
-      Privacy Policy - Mountain Goat Jumper
-    </a>
-  </p>
-<hr>
+    <p class="intro">
+      Independent developer creating useful apps and simple,
+      enjoyable games for Android.
+    </p>
+  </div>
+</header>
 
-<h2>Apps</h2>
 
-<h3>DueScan</h3>
-<p>
-  Scan documents, create PDFs and keep track of important expiry dates and reminders.
-</p>
+<main class="container">
 
-<p>
-  <a href="/privacy/duescan/">
-    Privacy Policy - DueScan
-  </a>
-</p>
+  <!-- APPS -->
 
-<hr>
+  <div class="section-title">Apps</div>
 
-  <p>© 2026 Venginoads</p>
+  <article class="card">
+    <div class="card-header">
+      <h2>DueScan</h2>
+      <span class="badge">Android</span>
+    </div>
+
+    <p>
+      Scan documents, create PDFs and keep track of important
+      expiry dates and reminders — all from one simple app.
+    </p>
+
+    <div class="links">
+      <a class="button" href="/privacy/duescan/">
+        Privacy Policy
+      </a>
+    </div>
+  </article>
+
+
+  <!-- GAMES -->
+
+  <div class="section-title">Games</div>
+
+  <article class="card">
+    <div class="card-header">
+      <h2>Mountain Goat Jumper</h2>
+      <span class="badge">Game</span>
+    </div>
+
+    <p>
+      Climb higher, overcome obstacles and reach the summit
+      in this challenging mountain adventure.
+    </p>
+
+    <div class="links">
+      <a class="button secondary" href="/privacy/mountain-goat-jumper/">
+        Privacy Policy
+      </a>
+    </div>
+  </article>
+
+</main>
+
+
+<footer>
+  <div class="container">
+    © 2026 Venginoads. All rights reserved.
+  </div>
+</footer>
 
 </body>
 </html>
