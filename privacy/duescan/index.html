@@ -4,300 +4,538 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>DueScan - Privacy Policy</title>
+    <title>DueScan | Privacy Policy</title>
+    <meta
+        name="description"
+        content="Privacy Policy for DueScan by Venginoads."
+    >
 
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            color: #222;
-            background-color: #ffffff;
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
 
-        h1, h2 {
-            color: #176b5b;
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, Arial, sans-serif;
+            background: #0d1211;
+            color: #eef4f1;
+            line-height: 1.7;
+        }
+
+        .container {
+            width: min(900px, 90%);
+            margin: 0 auto;
+        }
+
+        /* HEADER */
+
+        header {
+            padding: 55px 0 45px;
+            border-bottom: 1px solid #24302d;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: #63e6be;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .eyebrow {
+            color: #63e6be;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
         }
 
         h1 {
-            margin-bottom: 5px;
+            font-size: clamp(38px, 7vw, 60px);
+            line-height: 1.08;
+            letter-spacing: -1.5px;
+            margin-bottom: 16px;
+        }
+
+        .subtitle {
+            color: #aab8b4;
+            font-size: 18px;
+            max-width: 700px;
         }
 
         .updated {
-            color: #666;
-            margin-bottom: 35px;
+            display: inline-block;
+            margin-top: 22px;
+            padding: 7px 12px;
+            background: #17201e;
+            border: 1px solid #2a3834;
+            border-radius: 100px;
+            color: #9eada8;
+            font-size: 13px;
         }
 
-        .box {
-            background: #f4f8f7;
-            border-radius: 10px;
-            padding: 18px;
-            margin: 20px 0;
+        /* MAIN */
+
+        main {
+            padding: 45px 0 70px;
         }
+
+        .privacy-highlight {
+            background: linear-gradient(
+                135deg,
+                #123128,
+                #10251f
+            );
+            border: 1px solid #245c4c;
+            border-radius: 16px;
+            padding: 22px 24px;
+            margin-bottom: 28px;
+            color: #c8f7e8;
+        }
+
+        .privacy-highlight strong {
+            color: #63e6be;
+        }
+
+        .privacy-card {
+            background: #151d1b;
+            border: 1px solid #26332f;
+            border-radius: 22px;
+            padding: 42px;
+        }
+
+        section {
+            padding: 30px 0;
+            border-bottom: 1px solid #26332f;
+        }
+
+        section:first-child {
+            padding-top: 0;
+        }
+
+        section:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        h2 {
+            color: #f5f8f7;
+            font-size: 23px;
+            margin-bottom: 14px;
+        }
+
+        p {
+            color: #b5c1bd;
+            margin-bottom: 14px;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            color: #b5c1bd;
+            padding-left: 24px;
+            margin: 15px 0;
+        }
+
+        li {
+            margin: 7px 0;
+        }
+
+        .contact-link {
+            color: #63e6be;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        /* FOOTER */
 
         footer {
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            color: #666;
+            border-top: 1px solid #24302d;
+            padding: 28px 0;
+            color: #778681;
             font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 40px 0 35px;
+            }
+
+            main {
+                padding: 30px 0 50px;
+            }
+
+            .privacy-card {
+                padding: 25px 21px;
+                border-radius: 16px;
+            }
+
+            section {
+                padding: 25px 0;
+            }
+
+            h2 {
+                font-size: 21px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-<h1>DueScan Privacy Policy</h1>
+<header>
+    <div class="container">
 
-<p class="updated">Last updated: October 6, 2026</p>
+        <a class="back-link" href="/">
+            ← Back to Venginoads
+        </a>
 
-<div class="box">
-    <strong>Privacy first:</strong>
-    DueScan is designed to process and manage documents primarily on your
-    device. Your scanned documents are not sold to third parties.
-</div>
+        <div class="eyebrow">Privacy Policy</div>
 
-<h2>1. Introduction</h2>
+        <h1>DueScan</h1>
 
-<p>
-    This Privacy Policy explains how DueScan handles information when you use
-    the application.
-</p>
+        <p class="subtitle">
+            Learn how DueScan handles scanned documents, images,
+            reminders and other information while protecting your privacy.
+        </p>
 
-<p>
-    DueScan is a document scanning and document management application that
-    allows users to scan documents, process images, recognize text, create
-    documents such as PDFs, and manage document-related information such as
-    expiry dates and reminders.
-</p>
+        <div class="updated">
+            Last updated: October 6, 2026
+        </div>
 
+    </div>
+</header>
 
-<h2>2. Documents and Images</h2>
 
-<p>
-    DueScan may access images that you capture using your device's camera or
-    images that you choose to import into the application.
-</p>
+<main class="container">
 
-<p>
-    These images may contain personal or sensitive information depending on
-    the documents you choose to scan.
-</p>
+    <div class="privacy-highlight">
+        <strong>Privacy first.</strong>
+        DueScan is designed to process and manage documents primarily
+        on your device. Your scanned documents are not sold to third parties.
+    </div>
 
-<p>
-    Document images and generated files are processed for the purpose of
-    providing the application's document scanning and management features.
-</p>
 
+    <article class="privacy-card">
 
-<h2>3. Camera Access</h2>
+        <section>
+            <h2>1. Introduction</h2>
 
-<p>
-    DueScan may request access to your device's camera so that you can scan
-    documents.
-</p>
+            <p>
+                This Privacy Policy explains how DueScan handles information
+                when you use the application.
+            </p>
 
-<p>
-    Camera access is used only when required for document scanning features.
-    DueScan does not continuously access your camera in the background.
-</p>
+            <p>
+                DueScan is a document scanning and document management
+                application that allows users to scan documents, process
+                images, recognize text, create documents such as PDFs,
+                and manage information such as expiry dates and reminders.
+            </p>
+        </section>
 
 
-<h2>4. Text Recognition (OCR)</h2>
+        <section>
+            <h2>2. Documents and Images</h2>
 
-<p>
-    DueScan may use Optical Character Recognition (OCR) technology to detect
-    and extract text from scanned documents.
-</p>
+            <p>
+                DueScan may access images that you capture using your
+                device's camera or images that you choose to import into
+                the application.
+            </p>
 
-<p>
-    Extracted text may be used to provide features such as document
-    organization, searching, and detection of information such as dates or
-    expiry dates.
-</p>
+            <p>
+                These images may contain personal or sensitive information
+                depending on the documents you choose to scan.
+            </p>
 
+            <p>
+                Document images and generated files are processed for the
+                purpose of providing the application's document scanning
+                and management features.
+            </p>
+        </section>
 
-<h2>5. Document Processing</h2>
 
-<p>
-    DueScan may process document images to provide features such as:
-</p>
+        <section>
+            <h2>3. Camera Access</h2>
 
-<ul>
-    <li>document boundary detection;</li>
-    <li>cropping;</li>
-    <li>perspective correction;</li>
-    <li>rotation;</li>
-    <li>image enhancement and filters;</li>
-    <li>text recognition;</li>
-    <li>PDF generation.</li>
-</ul>
+            <p>
+                DueScan may request access to your device's camera so that
+                you can scan documents.
+            </p>
 
-<p>
-    Processing is performed for the purpose of providing the features
-    requested by the user.
-</p>
+            <p>
+                Camera access is used only when required for document
+                scanning features. DueScan does not continuously access
+                your camera in the background.
+            </p>
+        </section>
 
 
-<h2>6. Local Storage</h2>
+        <section>
+            <h2>4. Text Recognition (OCR)</h2>
 
-<p>
-    DueScan may store scanned documents, generated files, extracted
-    information, application preferences, expiry dates, and reminders locally
-    on your device.
-</p>
+            <p>
+                DueScan may use Optical Character Recognition (OCR)
+                technology to detect and extract text from scanned documents.
+            </p>
 
-<p>
-    Removing documents from DueScan or uninstalling the application may remove
-    locally stored application data, subject to Android's storage and backup
-    behavior.
-</p>
+            <p>
+                Extracted text may be used for features such as document
+                organization, searching and detection of dates or
+                expiry dates.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>5. Document Processing</h2>
+
+            <p>
+                DueScan may process document images to provide features
+                such as:
+            </p>
+
+            <ul>
+                <li>Document boundary detection</li>
+                <li>Automatic cropping</li>
+                <li>Perspective correction</li>
+                <li>Rotation</li>
+                <li>Image enhancement and filters</li>
+                <li>Text recognition</li>
+                <li>PDF generation</li>
+            </ul>
+
+            <p>
+                Processing is performed for the purpose of providing the
+                features requested by the user.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>6. Local Storage</h2>
+
+            <p>
+                DueScan may store scanned documents, generated files,
+                extracted information, application preferences, expiry
+                dates and reminders locally on your device.
+            </p>
 
+            <p>
+                Removing documents from DueScan or uninstalling the
+                application may remove locally stored application data,
+                subject to Android's storage and backup behavior.
+            </p>
+        </section>
 
-<h2>7. Expiry Dates and Reminders</h2>
 
-<p>
-    DueScan allows users to associate dates and reminders with documents.
-    The application may process detected or manually entered dates in order to
-    provide these features.
-</p>
+        <section>
+            <h2>7. Expiry Dates and Reminders</h2>
 
-<p>
-    DueScan may request permission to send notifications so that it can remind
-    you about upcoming dates or document expirations.
-</p>
+            <p>
+                DueScan allows users to associate dates and reminders
+                with documents.
+            </p>
+
+            <p>
+                The application may process detected or manually entered
+                dates in order to provide these features.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>8. Notifications</h2>
+
+            <p>
+                DueScan may request permission to send notifications so
+                that it can remind you about upcoming dates or document
+                expirations.
+            </p>
+
+            <p>
+                Notification permissions can be controlled through your
+                Android device settings.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>9. Sharing and Exporting Documents</h2>
+
+            <p>
+                DueScan may allow you to export or share documents using
+                Android's sharing features.
+            </p>
+
+            <p>
+                When you choose to share a document with another
+                application or service, the handling of that document
+                by the receiving service is governed by that service's
+                own privacy policy.
+            </p>
+        </section>
+
 
+        <section>
+            <h2>10. Screenshot Protection</h2>
+
+            <p>
+                DueScan may provide an optional privacy feature designed
+                to prevent screenshots or screen recordings while
+                sensitive documents are being displayed.
+            </p>
+
+            <p>
+                This feature can be controlled from DueScan's settings
+                when available.
+            </p>
+        </section>
 
-<h2>8. Notifications</h2>
 
-<p>
-    If you enable notifications, DueScan may send local notifications related
-    to reminders and document expiry dates.
-</p>
+        <section>
+            <h2>11. Purchases</h2>
 
-<p>
-    You can control notification permissions through your device settings.
-</p>
-
-
-<h2>9. Sharing and Exporting Documents</h2>
-
-<p>
-    DueScan may allow you to export or share documents using Android's sharing
-    features.
-</p>
-
-<p>
-    When you choose to share a document with another application or service,
-    the handling of that document by the receiving service is governed by
-    that service's own privacy policy.
-</p>
-
-
-<h2>10. Screenshot Protection</h2>
-
-<p>
-    DueScan may provide an optional privacy feature designed to prevent
-    screenshots or screen recordings while sensitive documents are being
-    displayed.
-</p>
-
-<p>
-    This feature can be controlled from the application's settings when
-    available.
-</p>
-
-
-<h2>11. Purchases</h2>
-
-<p>
-    DueScan may offer optional paid features through Google Play.
-</p>
-
-<p>
-    Payments are processed by Google Play. DueScan does not directly collect
-    or store your payment card information.
-</p>
-
-
-<h2>12. Advertising</h2>
-
-<p>
-    DueScan does not currently display third-party advertising.
-</p>
-
-
-<h2>13. Sale of Personal Data</h2>
-
-<p>
-    DueScan does not sell your scanned documents or personal information to
-    third parties.
-</p>
-
-
-<h2>14. Third-Party Technologies</h2>
-
-<p>
-    DueScan may use software libraries and services provided by third parties
-    to provide technical functionality such as document processing, text
-    recognition, barcode recognition, Android functionality, and Google Play
-    services.
-</p>
-
-<p>
-    These technologies may be subject to their respective providers' privacy
-    policies and terms.
-</p>
-
-
-<h2>15. Data Security</h2>
-
-<p>
-    Reasonable technical measures are used to protect information handled by
-    DueScan. However, no method of electronic storage or software system can
-    guarantee absolute security.
-</p>
-
-<p>
-    Users are responsible for protecting access to their device and for
-    choosing where exported documents are shared or stored.
-</p>
-
-
-<h2>16. Children's Privacy</h2>
-
-<p>
-    DueScan is not specifically directed at children. The application does
-    not knowingly seek to collect personal information from children.
-</p>
-
-
-<h2>17. Changes to This Privacy Policy</h2>
-
-<p>
-    This Privacy Policy may be updated when DueScan's functionality or data
-    practices change.
-</p>
-
-<p>
-    Any updated version will be published on this page together with a revised
-    "Last updated" date.
-</p>
-
-
-<h2>18. Contact</h2>
-
-<p>
-    If you have questions about this Privacy Policy or DueScan's privacy
-    practices, you can contact the developer using the contact information
-    provided on DueScan's Google Play listing.
-</p>
+            <p>
+                DueScan may offer optional paid features through
+                Google Play.
+            </p>
+
+            <p>
+                Payments are processed by Google Play. DueScan does not
+                directly collect or store your payment card information.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>12. Advertising</h2>
+
+            <p>
+                DueScan does not currently display third-party advertising.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>13. Sale of Personal Data</h2>
+
+            <p>
+                DueScan does not sell your scanned documents or personal
+                information to third parties.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>14. Third-Party Technologies</h2>
+
+            <p>
+                DueScan may use software libraries and services provided
+                by third parties to provide technical functionality such
+                as document processing, text recognition, barcode
+                recognition, Android functionality and Google Play services.
+            </p>
+
+            <p>
+                These technologies may be subject to their respective
+                providers' privacy policies and terms.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>15. Data Security</h2>
+
+            <p>
+                Reasonable technical measures are used to protect
+                information handled by DueScan. However, no method of
+                electronic storage or software system can guarantee
+                absolute security.
+            </p>
+
+            <p>
+                Users are responsible for protecting access to their
+                device and for choosing where exported documents are
+                shared or stored.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>16. Children's Privacy</h2>
+
+            <p>
+                DueScan is not specifically directed at children.
+                The application does not knowingly seek to collect
+                personal information from children.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>17. Changes to This Privacy Policy</h2>
+
+            <p>
+                This Privacy Policy may be updated when DueScan's
+                functionality or data practices change.
+            </p>
+
+            <p>
+                Any updated version will be published on this page
+                together with a revised "Last updated" date.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>18. Contact</h2>
+
+            <p>
+                Developer: <strong>Venginoads</strong>
+            </p>
+
+            <p>
+                For privacy-related questions, contact:
+                <a
+                    class="contact-link"
+                    href="mailto:venginoads@gmail.com"
+                >
+                    venginoads@gmail.com
+                </a>
+            </p>
+        </section>
+
+    </article>
+
+</main>
 
 
 <footer>
-    © 2026 DueScan. All rights reserved.
+    <div class="container">
+        © 2026 Venginoads. DueScan. All rights reserved.
+    </div>
 </footer>
 
 </body>
