@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SpaceFace | Privacy Policy</title>
+    <meta
+        name="description"
+        content="Privacy Policy for SpaceFace by Venginoads."
+    >
+
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background: #0a0c18;
+            color: #eef2fa;
+            line-height: 1.7;
+        }
+        .container { width: min(900px, 90%); margin: 0 auto; }
+
+        /* HEADER */
+        header { padding: 55px 0 45px; border-bottom: 1px solid #222a40; }
+        .back-link {
+            display: inline-block; color: #3fd0ff; text-decoration: none;
+            font-size: 14px; font-weight: 600; margin-bottom: 30px;
+        }
+        .back-link:hover { text-decoration: underline; }
+        .eyebrow {
+            color: #3fd0ff; font-size: 13px; font-weight: 700; letter-spacing: 2px;
+            text-transform: uppercase; margin-bottom: 12px;
+        }
+        h1 { font-size: clamp(38px, 7vw, 60px); line-height: 1.08; letter-spacing: -1.5px; margin-bottom: 16px; }
+        .subtitle { color: #a9b3cc; font-size: 18px; max-width: 700px; }
+        .updated {
+            display: inline-block; margin-top: 22px; padding: 7px 12px;
+            background: #141a2c; border: 1px solid #28314a; border-radius: 100px;
+            color: #9aa5bf; font-size: 13px;
+        }
+
+        /* MAIN */
+        main { padding: 45px 0 70px; }
+        .privacy-highlight {
+            background: linear-gradient(135deg, #10283a, #0f1d30);
+            border: 1px solid #22526c; border-radius: 16px;
+            padding: 22px 24px; margin-bottom: 28px; color: #c9eefc;
+        }
+        .privacy-highlight strong { color: #3fd0ff; }
+        .privacy-card { background: #121828; border: 1px solid #242d45; border-radius: 22px; padding: 42px; }
+        section { padding: 30px 0; border-bottom: 1px solid #242d45; }
+        section:first-child { padding-top: 0; }
+        section:last-child { border-bottom: none; padding-bottom: 0; }
+        h2 { color: #f5f7fc; font-size: 23px; margin-bottom: 14px; }
+        p { color: #b3bcd2; margin-bottom: 14px; }
+        p:last-child { margin-bottom: 0; }
+        ul { color: #b3bcd2; padding-left: 24px; margin: 15px 0; }
+        li { margin: 7px 0; }
+        .contact-link { color: #3fd0ff; text-decoration: none; font-weight: 600; }
+        .contact-link:hover { text-decoration: underline; }
+
+        /* FOOTER */
+        footer { border-top: 1px solid #222a40; padding: 28px 0; color: #747f9a; font-size: 14px; }
+
+        @media (max-width: 600px) {
+            header { padding: 40px 0 35px; }
+            main { padding: 30px 0 50px; }
+            .privacy-card { padding: 25px 21px; border-radius: 16px; }
+            section { padding: 25px 0; }
+            h2 { font-size: 21px; }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+
+        <a class="back-link" href="/">
+            ← Back to Venginoads
+        </a>
+
+        <div class="eyebrow">Privacy Policy</div>
+
+        <h1>SpaceFace</h1>
+
+        <p class="subtitle">How SpaceFace handles your selfie, photos, scores and purchases.</p>
+
+        <div class="updated">
+            Last updated: November 21, 2026
+        </div>
+
+    </div>
+</header>
+
+
+<main class="container">
+
+    <div class="privacy-highlight"><strong>Your data stays on your device.</strong> SpaceFace has no account, no ads and no analytics. Your selfie, name, scores and settings are stored only on your phone and are never sent to the developer.</div>
+
+
+    <article class="privacy-card"><section><h2>1. Introduction</h2><p>This Privacy Policy explains how SpaceFace, a 2D arcade space shooter provided by Venginoads, handles information on your Android device.</p></section>
+<section><h2>2. Information processed by the game</h2><p>SpaceFace processes only the information needed to play:</p><ul><li>a selfie or a photo you choose, used to put your face in the ship;</li><li>photos you choose to use as enemy faces;</li><li>the player name you type;</li><li>scores, leaderboard, statistics, unlocked levels and the game in progress;</li><li>settings such as language, volume, autofire, chosen skin and age range;</li><li>the list of skins you have purchased.</li></ul><p>All of this is stored in the game's private storage on your device.</p></section>
+<section><h2>3. Camera and photos</h2><p>The camera is used only when you open the selfie screen and choose to take a photo. Alternatively you can pick an image from your gallery. The image is cropped and saved locally to be shown inside the ship's porthole or on enemies. Photos are never uploaded, shared or sent to the developer. You can remove your selfie at any time from the game with "Remove selfie". Camera permission can be revoked at any time in Android settings; the game works without it.</p></section>
+<section><h2>4. Accounts, advertising and analytics</h2><p>SpaceFace does not require an account or registration. It does not include advertising, developer analytics, tracking or crash-reporting services, and it does not connect to developer-operated servers. The leaderboard is local to your device. This policy will be updated before introducing services that change these practices.</p></section>
+<section><h2>5. Purchases</h2><p>SpaceFace is a paid app and offers optional extra skins as in-app purchases. Both are handled entirely by Google Play under its own terms and privacy policy. The game never receives your payment details; it only receives confirmation from Google Play of which skins you own, to unlock them.</p></section>
+<section><h2>6. Sharing and rating</h2><p>If you tap "Share", the game opens the Android share menu with a link to the game, and the app you choose handles it under its own privacy policy. If you tap "Rate the app", Google Play is opened. Nothing is shared automatically.</p></section>
+<section><h2>7. Age and children</h2><p>On first launch the game asks for your age range (under 16 or 16 and over). This choice is stored only on your device. Players under 16 do not see paid skins or the enemy faces feature. SpaceFace does not knowingly collect personal information from children and does not send any personal information to the developer.</p></section>
+<section><h2>8. Storage, retention and deletion</h2><p>Game data stays on your device until you delete it. You can remove your selfie from within the game, clear the app storage in Android settings, or uninstall the game to delete all its local data, subject to Android backup and restore behavior. The developer cannot access or remotely delete data stored on your device. Purchased skins remain linked to your Google Play account and can be restored after reinstalling.</p></section>
+<section><h2>9. Third-party software and Android services</h2><p>SpaceFace is built with the Godot Engine and uses Android features such as the camera, the photo picker and the share menu. Google Play, Android and any app you choose for sharing may independently handle information under their own policies.</p></section>
+<section><h2>10. Support communications</h2><p>If you email venginoads@gmail.com, Venginoads receives your email address, message and any attachments you send. These are used only to respond to your request and investigate issues, on the basis of the legitimate interest in providing support. Gmail processes the correspondence as the email service provider. Support correspondence is kept while resolving the request and for up to 12 months after closure, unless a longer period is required by law or to handle a dispute.</p></section>
+<section><h2>11. Security</h2><p>Keep your device protected with a screen lock. No software or storage system can guarantee absolute security. The developer does not receive your photos or game data unless you choose to send them, for example when requesting support.</p></section>
+<section><h2>12. Your privacy rights</h2><p>For personal information held by Venginoads, such as support correspondence, you may request access, correction, deletion, restriction or objection where applicable, and portability where legally applicable. Contact venginoads@gmail.com. You may also lodge a complaint with your competent data protection authority; in Italy, the Garante per la protezione dei dati personali. Data stored by the game remains under your control and can be removed as described above.</p></section>
+<section><h2>13. Privacy of this webpage</h2><p>This privacy page is hosted on GitHub Pages. GitHub may process technical information about visits, such as IP addresses, under its own privacy statement. This HTML page includes no analytics scripts, advertising scripts or external fonts.</p></section>
+<section><h2>14. Changes</h2><p>Updates to this policy will be published on this page with a revised date. Material changes to data handling will be disclosed through appropriate in-game notices.</p></section>
+<section><h2>15. Contact</h2><p>Developer and privacy contact: Venginoads. Email: <a class="contact-link" href="mailto:venginoads@gmail.com">venginoads@gmail.com</a>.</p></section></article>
+
+
+</main>
+
+
+<footer>
+    <div class="container">
+        © 2026 Venginoads. SpaceFace. All rights reserved.
+    </div>
+</footer>
+
+</body>
+</html>
